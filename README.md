@@ -21,6 +21,6 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 ### SOLUZIONE
 
 1. Impostare il ciclo for da 1 a 100;
-2. Per ogni iterazione: SE (il resto della divisione per i multipli di 3 è 0) salviamo la parola "Fizz", ALTRIMENTI SE (il resto della divisione per i multipli di 5 è 0) salviamo la parola "Buzz", ALTRIMENTI (se il resto della divisione per i multipli di 3 e 5 è 0) salviamo la parola "FizzBuzz";
+2. Per ogni iterazione: SE (il resto della divisione per i multipli di 3 è 0) salviamo la parola "Fizz", ALTRIMENTI SE (il resto della divisione per i multipli di 5 è 0) salviamo la parola "Buzz", ALTRIMENTI SE (il resto della divisione per i multipli di 3 e 5 è 0) salviamo la parola "FizzBuzz";
 3. Stampo il numero e la parola;
 4. Fine ciclo.

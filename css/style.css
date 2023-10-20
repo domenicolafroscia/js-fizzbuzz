@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.container {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.square {
+    width: calc(100% / 7 - 12rem / 7);
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.fizzbuzz {
+    background-color: fuchsia;
+}
+
+.fizz {
+    background-color: lightgreen;
+}
+
+.buzz {
+    background-color: yellow;
+}
